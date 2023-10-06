@@ -67,8 +67,15 @@ nav a:hover {
     align-items: space-between;
 }
 
-.hero h1 {
-    margin-bottom: 0px;
+.hero-title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 200;
 }
 
 .hero-left,
@@ -125,6 +132,16 @@ nav a:hover {
 
 .text {
     text-align: center;
+}
+
+.container-3 {
+    padding: 12px 200px;
+}
+
+.container-3 q {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
 }
 
 footer {
