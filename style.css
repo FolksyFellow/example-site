@@ -14,7 +14,6 @@ button {
     border-radius: 6px;
     border: 0px;
     padding: 4px 12px;
-    width: 90px;
 }
 
 button:hover {
@@ -151,6 +150,30 @@ nav a:hover {
     display: flex;
     justify-content: flex-end;
     margin-top: 20px;
+}
+
+.container-4 {
+    padding: 40px 200px;
+}
+
+.cta-box {
+    background-color: #3882f6;
+    border-radius: .5em;
+    display: flex;
+    margin: 60px 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    color: #f9faf8;
+}
+
+.cta-button {
+    border: 2px #f9faf8 solid;
+}
+
+.cta-title {
+    font-size: 18px;
+    font-weight: 600;
 }
 
 footer {
