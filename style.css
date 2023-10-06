@@ -51,7 +51,7 @@ nav a:hover {
     padding: 12px 200px;
 }
 
-.placeholder {
+.hero-placeholder {
     background-color: #bdbdbd;
     display: flex;
     width: 300px;
@@ -85,4 +85,53 @@ nav a:hover {
 
 .hero-right {
     margin-left: 40px;
+}
+
+.container-2 {
+    padding: 12px 200px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-self: baseline;
+    flex-wrap: wrap;
+    flex-basis: 120px;
+}
+
+.box {
+    border: 3px #3882f6 solid;
+    border-radius: 1em;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text {
+    text-align: center;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
 }
