@@ -95,7 +95,7 @@ nav a:hover {
 }
 
 .container-2 {
-    padding: 12px 200px;
+    padding: 40px 200px 80px;
 }
 
 .title {
@@ -135,13 +135,22 @@ nav a:hover {
 }
 
 .container-3 {
-    padding: 12px 200px;
+    padding: 80px 200px;
+    background-color: #e5e7eb;
 }
 
 .container-3 q {
     font-size: 36px;
     font-style: italic;
     font-weight: 200;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
 }
 
 footer {
