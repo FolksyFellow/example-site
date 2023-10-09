@@ -3,6 +3,7 @@ body {
     color: #1f2937;
     margin: 0px;
     height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,6 +20,7 @@ button {
 button:hover {
     background-color: #f9faf8;
     color: #3882f6;
+    cursor: pointer;
 }
 
 nav {
@@ -28,13 +30,14 @@ nav {
     font-weight: 300;
 }
 
-nav a {
+nav a,
+div a {
     text-decoration: none;
     color: #f9faf8;
 }
 
 nav a:hover {
-    color: #bdbdbd;
+    color: #3882f6;
 }
 
 .header {
@@ -47,7 +50,7 @@ nav a:hover {
 .container {
     background-color: #1F2937;
     color: #f9faf8;
-    padding: 12px 200px;
+    padding: 12px 20vw;
 }
 
 .hero-placeholder {
@@ -94,7 +97,9 @@ nav a:hover {
 }
 
 .container-2 {
-    padding: 40px 200px 80px;
+    padding: 40px 20vw 80px;
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
@@ -110,6 +115,7 @@ nav a:hover {
     flex-direction: row;
     gap: 30px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .info {
@@ -134,7 +140,7 @@ nav a:hover {
 }
 
 .container-3 {
-    padding: 80px 200px;
+    padding: 80px 20vw;
     background-color: #e5e7eb;
 }
 
@@ -153,7 +159,7 @@ nav a:hover {
 }
 
 .container-4 {
-    padding: 40px 200px;
+    padding: 40px 20vw;
 }
 
 .cta-box {
